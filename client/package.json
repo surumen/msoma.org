@@ -1,9 +1,10 @@
 {
-  "name": "starhackit-ui",
-  "title": "StarHack.It",
-  "version": "5.2.0",
-  "description": "React + node starter kit. A fullstack boilerplate written in ES6/7 with authentication and authorisation",
-  "homepage": "https://github.com/FredericHeem/starhackit",
+  "name": "msoma-ui",
+  "title": "msoma.org",
+  "version": "1.0.0",
+  "description": "React + node starter kit. A fullstack app written in ES6/7 with authentication and authorisation",
+  "homepage": "https://github.com/surumen/msoma.org",
+  "private": true,
   "license": "NLPL",
   "scripts": {
     "dashboard": "webpack-dashboard -- webpack-dev-server --config webpack.dev.js",
@@ -28,10 +29,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:FredericHeem/starhackit.git"
+    "url": "git@github.com:surumen/msoma.org.git"
   },
   "bugs": {
-    "url": "https://github.com/FredericHeem/starhackit/issues"
+    "url": "https://github.com/surumen/msoma.org/issues"
   },
   "dependencies": {
     "axios": "0.18.0",

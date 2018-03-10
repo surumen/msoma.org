@@ -1,4 +1,4 @@
-# StarHackIt React Frontend
+# msoma react frontend
 
 A functional Preact/React based frontend starter kit:
 

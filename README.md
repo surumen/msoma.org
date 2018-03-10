@@ -1,7 +1,5 @@
-StarHackIt is a ES6/ES7 React/Node starter kit
+M-Soma kit
 ==============================================
-
-[![Join the chat at https://gitter.im/FredericHeem/starhackit](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/FredericHeem/starhackit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Fullstack web application starter kit written in es6/es7 with react and node.js with the following features:
 
@@ -50,23 +48,7 @@ For more information about the backend, see its [README](server/README.md)
 
 > The frontend and the backend are two separate projects with their own set of dependencies. One can use the frontend with another existing backend, or use the backend with another frontend stack.
 
-# Workflow
-
-## Clone the source code
-
-To get the latest code, grab it by cloning the repository from GitHub:
-
-    $ git clone https://github.com/FredericHeem/starhackit.git yourproject
-    $ cd yourproject
-
-## Deployment
-
-See [Ansible README.md](deploy/ansible/README.md)
 
 # License
 
 See [LICENSE](LICENSE)
-
-# Author
-
-Crafted with passion by [Frederic Heem](https://github.com/FredericHeem)
