@@ -40,11 +40,11 @@ Each *phase* has its own directory which contains the configuration files and th
 The global configuration which is independent on the phase is at [group_vars/all.yml](group_vars/all.yml)
 
 ```
-app_name: starthackit
-git_repo: https://github.com/FredericHeem/starhackit.git
+app_name: msoma.org
+git_repo: https://github.com/surumen/msoma.org.git
 git_version: master
 api_dir: '{{home}}/{{app_name}}'
-mail_signature: "The StarHackIt Team"
+mail_signature: "m-soma"
 ```
 
 To edit the production configuration parameters, edit [prod/group_vars/server.yml](prod/group_vars/server.yml):
@@ -54,13 +54,13 @@ env_name: production
 user: ubuntu
 home: /home/ubuntu
 node_env: production
-website_url: "http://starhack.it"
+website_url: "http://msoma.org"
 mail_service: Mailgun
-mail_from: "StarHackIt <notification@starhack.it>"
-mail_user: postmaster@starhackit.mailgun.org
-mail_password: 1b901d8d9a2806754225ad177fe93a10
-facebook_client_id: 1643377549276547
-facebook_client_secret: 1da6597bec02ca41f3950641c6e965a2
+mail_from: "msoma <notification@msoma.org>"
+mail_user: postmaster@msoma.mailgun.org
+mail_password: ...
+facebook_client_id: ...
+facebook_client_secret: ...
 ```
 
 Then to change the remote machine connection settings (ip address, username, ssh key location), edit the production inventory: [prod/inventory](prod/inventory):

@@ -36,7 +36,7 @@ These are the main *npm* commands during a standard developer workflow:
 This project can use the most popular SQL databases such as PostgreSQL, MySQL, Oracle, MSSQL and Sqlite. This is achieved with [Sequelize](http://docs.sequelizejs.com/en/latest/), the most popular [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping) for Node.js
 
 
-For rapid prototyping, the easiest database to configure is sqlite. In production, StarHackIt is using PostgreSQL.
+For rapid prototyping, the easiest database to configure is sqlite. In production, msoma is using PostgreSQL.
 
 ### Sqlite configuration
 
@@ -108,13 +108,13 @@ The project is leveraging [nodemailer](http://nodemailer.com/) which makes sendi
 
 ```
 "mail": {
-  "from": "StarHackIt <notification@yourproject.com>",
+  "from": "msoma <notification@msoma.org>",
   "signature": "The Team",
   "smtp": {
     "service": "Mailgun",
     "auth": {
-      "user": "postmaster@yourproject.mailgun.org",
-      "pass": "2109aef076a992169436141d0aba0450"
+      "user": "postmaster@msoma.mailgun.org",
+      "pass": "..."
     }
   }
 }
